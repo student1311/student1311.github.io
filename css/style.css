@@ -100,6 +100,12 @@ body {
     text-align: center;
 }
 
+.contacts .fa:hover {
+	border-bottom: 1px solid #000;
+	
+	cursor: pointer;
+}
+
 .contacts .fa-skype {
     color: #00a8e7;
 }
