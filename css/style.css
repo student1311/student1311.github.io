@@ -75,7 +75,7 @@ body {
 .content-item {
 
     margin: 50px 15px 0;
-    width: 500px;
+    max-width: 500px;
 }
 
 .content-item img {
