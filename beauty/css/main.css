@@ -408,7 +408,7 @@ input:-ms-input-placeholder {
   border: 11px solid #fff;
   -webkit-border-radius: 50%;
           border-radius: 50%;
-  margin-top: 43px; }
+  margin-top: 15px; }
 
 .section-bg-img-1 {
   background-image: url("../img/bg-eye.png"); }
@@ -445,7 +445,7 @@ input:-ms-input-placeholder {
   font-weight: 400;
   color: #fff;
   margin-left: 54px;
-  padding: 84px 0;
+  padding: 49px 0;
   text-align: justify; }
 
 .button-section-bg, .button-section-bg-or {
