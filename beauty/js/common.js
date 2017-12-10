@@ -43,11 +43,10 @@ $('.popup').magnificPopup();
 
 
 
-$('#menu a, .footer a, .logo a').mPageScroll2id({
-    offset:125,
-
-
+$("a[rel='m_PageScroll2id']").mPageScroll2id({
+    offset:50
 });
+
 
 
 $('.title-slider').animated('pulse', 'pulse');
