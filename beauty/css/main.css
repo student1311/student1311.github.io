@@ -376,6 +376,10 @@ input:-ms-input-placeholder {
   background-position: center top;
   height: 635px; }
 
+.ortonyxia, .manicur {
+  padding-top: 35px;
+}
+
 .titlle-section-bg {
   font: 48px 'Open Sans',sans-serif;
   font-weight: 400;
