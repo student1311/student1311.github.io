@@ -1,0 +1,53 @@
+<div class="container-fluid"> 
+        <div class="row">
+            <div class="col-md-12 p-z bg-rev">
+                <div class="carousel slide" id="carousel-example">
+                      <ol class="carousel-indicators">
+                            <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example" data-slide-to="1"></li>
+                            <li data-target="#carousel-example" data-slide-to="2"></li> 
+                      </ol>
+
+      <div class="carousel-inner">
+        <div class="item-rev active ">
+           <img src="img/img-wed-s1.png" alt="img">
+             <div class="item-in">
+                   <h2>ОБО МНЕ ГОВОРЯТ</h2>
+                   <div class="center">
+                        <img src="img/bb-img-w.png" alt="alt">
+                    </div>
+                   <p>Мы приняли решение о том,что именно Оля будет нашим свадебным фотографии после того, как увидели фотографии наших друзей,- снимки были именно такими, какими я представляла свои свадебные фотографии. И могу с уверенностью сказать, что ни секунды не пожалели о принятом решении.</p> 
+                   <h4>Миша и Настя</h4>    
+             </div>
+        </div>
+         <div class="item-rev">
+           <img src="img/img-wed-s2.png" alt="img">
+             <div class="item-in">
+                   <h2>ОБО МНЕ ГОВОРЯТ</h2>
+                   <div class="center">
+                        <img src="img/bb-img-w.png" alt="alt">
+                    </div>
+                   <p>Работать с Викой одно удовольствие, благодаря ей наша свадьба запечатлена в красивых и удивительных фотографиях, которыми восхищаемся и мы с мужем и все знакомые. А еще она очень приятный и веселый человечек.
+                   </p> 
+                   <h4>Сергей и Алина</h4>    
+             </div>
+        </div>
+         <div class="item-rev">
+           <img src="img/img-wed-s3.png" alt="img">
+             <div class="item-in">
+                   <h2>ОБО МНЕ ГОВОРЯТ</h2>
+                   <div class="center">
+                        <img src="img/bb-img-w.png" alt="alt">
+                    </div>
+                   <p>Мы довольны на 100%. Работать с Олей – одно удовольствие. Она запросто может вас расшевелить, заставить улыбаться и раскрепоститься. Нам было очень комфортно и весело работать с Олей, как во время свадебной съемки, так до и после нее.Во всех фотографиях чувствуется стиль, который соответствует модным тенденциям в свадебном мире.</p> 
+                   <h4>Антон и Оля</h4>    
+             </div>
+        </div>
+        
+        
+                   
+        </div>
+                </div>                   
+            </div>
+        </div>
+    </div> 
