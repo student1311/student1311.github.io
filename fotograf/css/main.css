@@ -803,6 +803,7 @@ input[type="submit"]:hover {
     width: 52px;
     height: 52px;
     background-color: #d4cccc;
+    display: none;
 }
 
 .arrow a {
