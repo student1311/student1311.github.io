@@ -44,6 +44,7 @@ document.getElementById('cross-1').onclick = function() {
     document.getElementById("popup").disabled = false;
     document.getElementById('p1').style.display = "none";
     document.getElementById('p2').style.display = "none";
+    clearInterval(timer);
     min = 1;
     sec = 60;
 }
