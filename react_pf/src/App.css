@@ -1,0 +1,158 @@
+html {
+/*   background: -webkit-radial-gradient(center, ellipse, #2c2829 0%, #000000 100%);
+  background: radial-gradient(ellipse at center, #2c2829 0%, #000000 100%); */
+  overflow-x: hidden;
+  background: #2c2829;
+ /*  scroll-behavior: smooth; */
+}
+
+svg {
+  position: fixed;
+  top: 0;
+  background: rgba(0,0,0,0.1);
+  z-index: -1;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+ 
+}
+
+a {
+  text-decoration: none;
+}
+
+.menuSubtitle {
+  color: #827f7f;
+  font-size: 17px;  
+  font-family: 'Open Sans Condensed', sans-serif;
+  letter-spacing: 5px;
+}
+
+.menu-row {
+  position: fixed;
+  top: 23px;
+  left: 33px;
+  display: inline-block;
+  z-index: 100;
+  opacity: 0.99;
+}
+
+.menu {
+  position: absolute;
+visibility: hidden;
+  left: 20%;
+  opacity: 0;
+  list-style-type: none;
+  
+}
+
+.menu.open {
+  opacity: 1;
+  transition: 3s;
+  transition-delay: .5s;
+  visibility: visible;
+}
+
+.active {
+  color: #c4ac6f;
+}
+
+.menuItem {
+  color: #fff;
+  font-size: 35px;
+ /*  font-family: 'Acme', sans-serif; */
+  font-family: 'Marvel', sans-serif;
+  text-transform: capitalize;
+  margin-top: 100px;
+  display: block;
+  transition: .5s;
+  
+}
+
+/* .menuItem.show {
+  display: block;
+} */
+/* .menuItem.active {
+  color: red;
+} */
+
+.menuItem:hover {
+  color: #c4ac6f;
+  
+}
+
+/* .menuLink {
+  opacity: 0;
+} */
+
+.menuLink:hover {
+  cursor: pointer;
+}
+
+.sidebar {
+
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 85px;
+  position: fixed;
+  top: 80px;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  margin: 0;
+  transition: 1s;
+}
+ 
+.Hamburger {
+  z-index: 1;
+  position: absolute;
+
+} 
+
+.Hamburger:hover {
+  cursor: pointer;
+}
+
+ 
+.sidebar.expanded {
+  width: 250px;
+  transition: width 0.8s, height 0.8s;
+  background-color: rgba(0, 0, 0, 0.95);
+/*   z-index: 2; */
+}
+
+
+
+.App {
+  height: 100%;
+ 
+}
+
+@media only screen and (max-width: 750px) {
+  .sidebar.expanded {
+  width: 100%;
+  height: 100%;
+  }
+  .sidebar {
+    width: 100%;
+    height: 60px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+    .menuItem {
+      margin-top: 35px; 
+    }
+
+}
+
+
+
+
+
